@@ -37,7 +37,7 @@ export default function Contact() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
           </svg>
           <div className="md:ml-4 text-md tracking-wide font-semibold w-40">
-            <a href="mailto:herenozcan17@gmail.com">herenozcan17@gmail.com</a>
+            <a href="mailto:herenozcan17@gmail.com">info@erenozcan.com</a>
           </div>
         </div>
       </div>
