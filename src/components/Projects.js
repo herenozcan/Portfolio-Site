@@ -33,6 +33,7 @@ export default function Projects() {
 
   return (
     <div className="mx-12 text-center pt-9 pb-9">
+      <h1 className="text-lg font-semibold pb-4 text-gray-700 dark:text-gray-400">Projects</h1>
       <Slider {...settings}>
         <div className="w-full p-4">
           <div className="block h-30 overflow-hidden rounded-lg bg-[#5D3EBC]">
