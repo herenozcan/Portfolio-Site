@@ -41,7 +41,7 @@ export default function Projects() {
           </div>
           <div className="mt-4 text-center">
             <h3 className="title-font mb-1 text-xs tracking-widest dark:text-gray-200 text-gray-500">PROJECT</h3>
-            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300" href="https://github.com/herenozcan/Getir-React-Duplicate">Getir Website Clone</a>
+            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300" href="https://github.com/ozcaneren/Getir-React-Duplicate">Getir Website Clone</a>
             <p className="mt-1 dark:text-gray-400">20/10/2022</p>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Projects() {
           </div>
           <div className="mt-4 text-center">
             <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500 dark:text-gray-200">PROJECT</h3>
-            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/herenozcan/HTML-CSS-Designs">HTML/CSS Design's</a>
+            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/ozcaneren/HTML-CSS-Designs">HTML/CSS Design's</a>
             <p className="mt-1 dark:text-gray-400">17/08/2022</p>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function Projects() {
           </div>
           <div className="mt-4 text-center">
             <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500 dark:text-gray-200">PROJECT</h3>
-            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/herenozcan/Python-Projects">Python Projects</a>
+            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/ozcaneren/Python-Projects">Python Projects</a>
             <p className="mt-1 dark:text-gray-400">12/11/2021</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Projects() {
           </div>
           <div className="mt-4 text-center">
             <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500 dark:text-gray-200">PROJECT</h3>
-            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/herenozcan/SpaceX-Clone">SpaceX Clone</a>
+            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/ozcaneren/SpaceX-Clone">SpaceX Clone</a>
             <p className="mt-1 dark:text-gray-400">28/08/2022</p>
           </div>
         </div>
