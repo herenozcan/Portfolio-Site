@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return(
     <div className="container mx-auto">
-      <div className="flex flex-col md:flex-row items-center justify-center text-center">
+      <div className="flex flex-col md:flex-row items-center justify-center mb-9 mt-9">
         <div className="pt-5">
           <img className="w-50 h-60 rounded-lg" src="https://i.hizliresim.com/logetgk.png" alt="img"/>
         </div>
