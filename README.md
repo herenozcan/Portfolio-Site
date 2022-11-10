@@ -1,1 +1,1 @@
-erenozcan.com
+https://www.erenozcan.com
