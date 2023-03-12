@@ -33,7 +33,7 @@ export default function Projects() {
 
   return (
     <div className="mx-12 text-center pt-9 pb-9">
-      <h1 className="text-lg font-semibold pb-4 text-gray-700 dark:text-gray-400">Projects</h1>
+      <h1 className="text-xl font-semibold pb-4 text-gray-700 dark:text-gray-400">Projects</h1>
       <Slider {...settings}>
         <div className="w-full p-4">
           <div className="block h-30 overflow-hidden rounded-lg bg-[#5D3EBC]">
@@ -73,6 +73,16 @@ export default function Projects() {
             <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500 dark:text-gray-200">PROJECT</h3>
             <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/ozcaneren/SpaceX-Clone">SpaceX Clone</a>
             <p className="mt-1 dark:text-gray-400">28/08/2022</p>
+          </div>
+        </div>
+        <div className="w-full p-4">
+          <div className="block h-30 overflow-hidden rounded-lg">
+            <img alt="ecommerce" className="block h-[260px] w-full object-cover object-center cursor-pointer bg-yellow-500" src="https://lemonkingdom.netlify.app/static/media/lemon720x600.e0f6a5c2491ce2927d47.png" />
+          </div>
+          <div className="mt-4 text-center">
+            <h3 className="title-font mb-1 text-xs tracking-widest text-gray-500 dark:text-gray-200">PROJECT</h3>
+            <a className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"  href="https://github.com/ozcaneren/SpaceX-Clone">Lemon Kingdom</a>
+            <p className="mt-1 dark:text-gray-400">12/12/2022</p>
           </div>
         </div>
       </Slider>
