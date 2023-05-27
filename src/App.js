@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-
       <div className="bg-gray-200 dark:bg-[#202125]">
         <div className="container mx-auto">
           <Header />
