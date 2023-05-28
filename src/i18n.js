@@ -18,6 +18,9 @@ const resources = {
       "Python Projects": "Python Projeleri",
       "SpaceX Clone": "SpaceX Klonu",
       "Lemon Kingdom": "Limon Krallığı",
+      "Toggle Dark Light Mode": "Koyu Açık Modu Değiştir",
+      "CSS Nesting": "CSS Yerleşimi",
+      "Fake Store API": "Sahte Mağaza API"
     }
   },
   en: {
@@ -35,6 +38,9 @@ const resources = {
       "Python Projects": "Python Projects",
       "SpaceX Clone": "SpaceX Clone",
       "Lemon Kingdom": "Lemon Kingdom",
+      "Toggle Dark Light Mode": "Toggle Dark Light Mode",
+      "CSS Nesting": "CSS Nesting",
+      "Fake Store": "Fake Store"
     }
   }
 }
