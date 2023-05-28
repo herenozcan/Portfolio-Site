@@ -32,7 +32,7 @@ export default function Projects() {
     ]
   };
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="mx-12 text-center pt-9 pb-9">

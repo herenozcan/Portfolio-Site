@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function HeroSection() {
 
-  const { t, i18n } = useTranslation();
+  const { t} = useTranslation();
 
   return(
     <div className="container mx-auto">

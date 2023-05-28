@@ -7,7 +7,7 @@ import TranslateEn from "./TranslateEn";
 
 export default function Header() {
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <header className="header sticky top-0 bg-white dark:text-gray-300 shadow-xl flex items-center justify-center px-8 py-02 rounded-md bg-gray-200 dark:bg-[#373A43] z-10">
