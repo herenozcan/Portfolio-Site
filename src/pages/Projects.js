@@ -25,7 +25,7 @@ function Projects() {
           </div>
           <div className="flex justify-center items-center">
             <div className="grid grid-cols-3 gap-16 text-center pt-9 pb-9">
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#373A43] dark:border-gray-700">
                 <div>
                   <img
                     className="rounded-t-lg object-fill bg-[#6EA1B0]"
@@ -51,7 +51,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#373A43] dark:border-gray-700">
                 <div>
                   <img
                     className="rounded-t-lg object-fill bg-[#6EA1B0]"
@@ -79,7 +79,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#373A43] dark:border-gray-700">
                 <div>
                   <img
                     className="rounded-t-lg object-fill w-[382px] h-[382px] bg-[#6EA1B0]"
@@ -107,7 +107,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#373A43] dark:border-gray-700">
                 <div>
                   <img
                     className="rounded-t-lg object-fill w-[382px] h-[382px] bg-[#6EA1B0]"
@@ -135,7 +135,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#373A43] dark:border-gray-700">
                 <div>
                   <img
                     className="rounded-t-lg object-fill w-[382px] h-[382px] bg-[#6EA1B0]"
@@ -163,7 +163,7 @@ function Projects() {
                   </a>
                 </div>
               </div>
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-[#373A43] dark:border-gray-700">
                 <div>
                   <img
                     className="rounded-t-lg object-fill w-[382px] h-[382px] bg-[#6EA1B0]"
