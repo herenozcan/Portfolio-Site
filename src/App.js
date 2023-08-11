@@ -1,32 +1,15 @@
-import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
-import Projects from "./components/Projects"
-import Contact from "./components/Contact";
-import Divide from "./components/Divide";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
-      <div className="bg-gray-200 dark:bg-[#202125]">
-        <div className="container mx-auto">
-          <Header />
-          <HeroSection />
-          <div className="pt-5">
-            <Divide />
-          </div>
-          <Projects />
-          <div className="pb-10">
-            <Divide />
-          </div>
-          <Contact />
-          <div className="pb-10">
-            <Divide />
-          </div>
-          <Footer />
-        </div>
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   )
 }
 
