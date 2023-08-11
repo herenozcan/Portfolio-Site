@@ -67,7 +67,7 @@ export default function Projects() {
           <div className="block h-30 overflow-hidden rounded-lg">
             <img
               alt="ecommerce"
-              className="block h-[260px] w-full object-contain bg-[#6EA1B0] object-center cursor-pointer rounded-md"
+              className="block h-[260px] w-full object-cover bg-[#f38e67] object-center cursor-pointer rounded-md"
               src={Bookmark}
             />
           </div>
