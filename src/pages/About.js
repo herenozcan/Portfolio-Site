@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Divide from "../components/Divide";
 
-function Contact() {
+function About() {
   return (
     <>
       <div className="bg-gray-200 dark:bg-[#202125]">
@@ -11,7 +11,7 @@ function Contact() {
           <Header />
           <div className="pt-5">
             <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white">
-              Contact
+              About
             </h1>
           </div>
           <div className="pt-5">
@@ -32,4 +32,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default About;

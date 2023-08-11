@@ -2,6 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Divide from "../components/Divide";
+import Bookmarkapp from "../components/cards/bookmarkapp";
+import Todoapp from "../components/cards/todoapp";
+import Chatapp from "../components/cards/chatapp";
+import Nestapp from "../components/cards/nestapp";
 
 function Projects() {
   return (
@@ -10,17 +14,20 @@ function Projects() {
         <div className="container mx-auto">
           <Header />
           <div className="pt-5">
-            <h1 className="text-4xl font-bold text-center text-gray-800 dark:text-white">
+            <h1 className="text-4xl pt-4 font-bold text-center text-gray-800 dark:text-white">
               Projects
             </h1>
           </div>
           <div className="pt-5">
             <Divide />
           </div>
-          <div className="py-56">
-            <h1 className="text-2xl font-bold text-center text-gray-800 dark:text-white">
-              Coming Soon
-            </h1>
+          <div className="">
+            <div className="grid sm:grid-cols-3 justify-items-center px-4 sm:px-0 gap-y-8">
+              <Bookmarkapp />
+              <Todoapp />
+              <Chatapp />
+              <Nestapp />
+            </div>
           </div>
           <div className="pb-10">
             <Divide />
