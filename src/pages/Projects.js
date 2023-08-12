@@ -6,6 +6,11 @@ import Bookmarkapp from "../components/cards/bookmarkapp";
 import Todoapp from "../components/cards/todoapp";
 import Chatapp from "../components/cards/chatapp";
 import Nestapp from "../components/cards/nestapp";
+import Getir from "../components/cards/getir";
+import Lemon from "../components/cards/lemon";
+import Darklight from "../components/cards/darklight";
+import Fakestore from "../components/cards/fakestore";
+import Css from "../components/cards/css";
 
 function Projects() {
   return (
@@ -27,6 +32,11 @@ function Projects() {
               <Todoapp />
               <Chatapp />
               <Nestapp />
+              <Getir />
+              <Lemon />
+              <Darklight />
+              <Fakestore />
+              <Css />
             </div>
           </div>
           <div className="pb-10">

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Translate from "./Translate";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import PDF from "../pdf/resume.pdf";
 
 export default function Header() {
   const [currentLang, setCurrentLang] = useState("en");
@@ -25,16 +26,16 @@ export default function Header() {
             <Link to="/projects">{t("Projects")}</Link>
           </li>
           <li className="p-4 border-b-2 dark:border-b-2 border-gray-500 dark:border-gray-200 border-opacity-0 dark:border-opacity-0 hover:border-opacity-100 dark:hover:border-opacity-100 hover:text-gray-500 dark:hover:text-gray-100 duration-200 cursor-pointer">
-            <Link to="/about">{t("About")}</Link>
-          </li>
-          <li className="p-4 border-b-2 dark:border-b-2 border-gray-500 dark:border-gray-200 border-opacity-0 dark:border-opacity-0 hover:border-opacity-100 dark:hover:border-opacity-100 hover:text-gray-500 dark:hover:text-gray-100 duration-200 cursor-pointer">
-            <Link to="/contact">{t("Contact")}</Link>
+            <a href={PDF} download="erenozcanCV.pdf">
+              CV
+            </a>
           </li>
           <li className="flex items-center justify-center p-4 border-b-2 dark:border-b-2 border-gray-500 dark:border-gray-200 border-opacity-0 dark:border-opacity-0 hover:border-opacity-100 dark:hover:border-opacity-100 hover:text-gray-500 dark:hover:text-gray-100 duration-200 cursor-pointer">
-            <button
-              onClick={handleLanguageToggle}
-            >
-              <Translate lang={currentLang} text={`${currentLang.toUpperCase()}`} />
+            <button onClick={handleLanguageToggle}>
+              <Translate
+                lang={currentLang}
+                text={`${currentLang.toUpperCase()}`}
+              />
             </button>
           </li>
           <li className="flex items-center justify-center p-4 border-b-2 dark:border-b-2 border-gray-500 dark:border-gray-200 border-opacity-0 dark:border-opacity-0 hover:border-opacity-100 dark:hover:border-opacity-100 hover:text-gray-500 dark:hover:text-gray-100 duration-200 cursor-pointer">

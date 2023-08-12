@@ -6,6 +6,8 @@ import darkLight from "../images/darklightmode.jpg";
 import fakeStore from "../images/fakestore.png";
 import cssNesting from "../images/css-nesting.png";
 import Bookmark from "../images/bookmark1.png";
+import getir from "../images/getir.png";
+import todo from "../images/to-do-list-apps.png"
 
 export default function Projects() {
   const settings = {
@@ -47,7 +49,7 @@ export default function Projects() {
             <img
               alt="ecommerce"
               className="block h-[260px] w-full object-cover object-center cursor-pointer"
-              src="https://cdn.getir.com/marketing/Getir_Logo_1621812382342.png"
+              src={getir}
             />
           </div>
           <div className="mt-4 text-center">
@@ -131,7 +133,7 @@ export default function Projects() {
             <img
               alt="ecommerce"
               className="block h-[260px] w-full object-cover object-center cursor-pointer bg-yellow-500"
-              src="https://lemonkingdom.netlify.app/static/media/lemon720x600.e0f6a5c2491ce2927d47.png"
+              src={todo}
             />
           </div>
           <div className="mt-4 text-center">
@@ -142,9 +144,9 @@ export default function Projects() {
               className="title-font text-lg font-medium text-gray-900 dark:text-gray-300"
               href="https://github.com/ozcaneren/SpaceX-Clone"
             >
-              {t("Lemon Kingdom")}
+              {t("Todo App")}
             </a>
-            <p className="mt-1 dark:text-gray-400">12/12/2022</p>
+            <p className="mt-1 dark:text-gray-400">28/07/2023</p>
           </div>
         </div>
         <div className="w-full p-4">

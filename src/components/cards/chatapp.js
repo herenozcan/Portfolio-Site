@@ -12,7 +12,7 @@ function chatapp() {
               <h3 className="text-xl font-medium text-slate-700 dark:text-slate-200">
                 Chat App
               </h3>
-              <p className="text-sm text-slate-400"> Date </p>
+              <p className="text-sm text-slate-400">30/07/2023</p>
             </div>
           </header>
         </div>
@@ -25,15 +25,16 @@ function chatapp() {
         </figure>
         {/*  <!-- Body--> */}
         <div className="p-6">
-          <p>
-            A real-time chat application was created using socket.io
-          </p>
+          <p>A real-time chat application was created using socket.io</p>
         </div>
         <div className="flex justify-end gap-2 p-2 pt-0">
           <button className="inline-flex h-10 items-center justify-center gap-2 justify-self-center whitespace-nowrap rounded px-5 text-md tracking-wide text-emerald-700 dark:text-emerald-400 transition duration-300 hover:bg-emerald-100 dark:hover:bg-emerald-500 dark:hover:text-emerald-200 hover:text-emerald-600 focus:bg-emerald-200 focus:text-emerald-700 focus-visible:outline-none disabled:cursor-not-allowed disabled:text-emerald-300 disabled:shadow-none disabled:hover:bg-transparent">
-            <span className="relative only:-mx-6">
+            <a
+              href="https://github.com/ozcaneren/real-time-chat-app"
+              className="relative only:-mx-6"
+            >
               <BsArrowReturnRight />
-            </span>
+            </a>
           </button>
         </div>
       </div>
